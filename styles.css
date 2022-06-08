@@ -252,145 +252,101 @@ color: #5764ff;}
 
 /* Pricing */
 
-.our_pricing {
-  background-image: url(https://via.placeholder.com/280x280/9370DB/000000);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
-  position: relative;
-  margin-top: 120px;
-  padding: 20px;
+.pricingTable{
+    color: #222;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 20px 20px 30px;
+    margin: 0 0 0 40px;
+    border-radius: 30px;
+    position: relative;
 }
-
-
-.pricingTable {
-  width: 70%;
-  background: #fff none repeat scroll 0 0;
-  color: #232434;
-  margin-top: 30px;
-  margin-left: 90px;
-  padding: 50px 15px;
-  -webkit-box-shadow: 0px 19px 43px 0px rgba(17, 17, 17, 0.05);
-  box-shadow: 0px 19px 43px 0px rgba(17, 17, 17, 0.05);
-  -webkit-perspective: 200px;
-  perspective: 200px;
-  position: relative;
-  text-align: center;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-  z-index: 1;
-  border-radius: 25px;
+.pricingTable .pricingTable-header{ margin: 0 0 20px 0; }
+.pricingTable .title{
+    color: #fff;
+    background: linear-gradient(#6491DD,#6469F2);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 15px 7px;   
+    margin: 0 0 15px;
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -39px;
+    top: 250px;
 }
-
+.pricingTable .price-value{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
 }
-
-.pricingTabletop {
-  margin-top: -30px;
+.pricingTable .price-value .amount{
+    line-height: 40px;
+    display: inline-block;
 }
-
-.pricingTable .pricingTable-header {}
-
-.pricingTable .big-heading {
-  display: block;
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: capitalize;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+.pricingTable .price-value .duration{
+    color: #444;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
 }
-
-.pricingTable .dettagli {
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 5px;
+.pricingTable .pricing-content{
+    text-align: left;
+    padding: 0;
+    margin: 0 0 25px;
+    list-style: none;
+    display: inline-block;
 }
-
-.prezzo-intero {
-font-size: 50px;
-line-height: 112px;
-position: relative;
-color: #751ED0;
-margin: 20px 0;
+.pricingTable .pricing-content li{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 0 0 0 25px;
+    margin: 0 0 17px;
+    position: relative;
 }
-
-.pricingTable .price-value {
-  font-size: 170px;
-  line-height: 112px;
-  position: relative;
-  color: #e4f1ff;
-  margin: 40px 0;
+.pricingTable .pricing-content li:last-child{ margin: 0; }
+.pricingTable .pricing-content li:before{
+    content: "\f00c";
+    color: #444;
+    font-family: "Font Awesome 5 free";
+    font-size: 16px;
+    font-weight: 900;
+    position: absolute;
+    top: 1px;
+    left: 0;
 }
-
-
-
-.pricingTable .price-value .value-bg {
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  color: #1386fc;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 60px;
+.pricingTable .pricing-content li.disable:before{ content: "\f00d"; }
+.pricingTable .pricingTable-signup a{
+    color: #fff;
+    background: linear-gradient(to right,#6491DD,#6469F2);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 6px 20px 8px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
 }
-
-.pricingTable-2 .price-value {
-  color: #e6e4ff;
+.pricingTable .pricingTable-signup a:hover{
+    color: #fff;
+    text-shadow: 3px 3px rgba(255,255,255,0.2);
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.1), 0 0 0 10px rgba(0,0,0,0.05);
 }
-
-.pricingTable-2 .price-value .value-bg {
-  color: #751ED0;
-}
-
-.pricingTable .pricing-content {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-
-.pricing-content-border>li {
-  border: 1px solid #eee;
-  margin-bottom: 10px;
-}
-
-.pricingTable .pricing-content li {
-  line-height: 45px;
-  font-size: 1.5rem;
-}
-
-
-.section-title {
-  margin-bottom: 60px;
-}
-
-h1.section-title-white {
-  color: #fff;
-}
-
-.section-title{
-  font-size: 44px;
-  font-weight: 500;
-  margin-top: 0;
-  position: relative;
-  text-transform: capitalize;
-  margin-bottom: 15px;
-}
-
-p.section-title-white {
-  color: #fff;
-}
-
-.section-title p {
-  padding: 0 10px;
-  width: 70%;
-  margin: auto;
-  letter-spacing: 1px;
+.pricingTable.green .title{ background: linear-gradient(#2EDDB4,#3F857B); }
+.pricingTable.green .pricingTable-signup a{ background: linear-gradient(to right,#2EDDB4,#3F857B); }
+.pricingTable.orange .title{ background: linear-gradient(#f9a661,#cc6c1e); }
+.pricingTable.orange .pricingTable-signup a{ background: linear-gradient(to right,#f9a661,#cc6c1e); }
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin: 0 0 40px 40px; }
 }
 
 /* Footer */
@@ -483,50 +439,5 @@ p.section-title-white {
   margin-left: 10%;
   }
   
-  .pricing-content {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
-  }
 
-}
-
-@media only screen and (max-width:480px) {
-  .pricingTable {
-    margin-bottom: 60px;
-    margin-right: 60px;
-    width: 100%;
-    font-size: 7rem;
-    line-height: 2.5rem;
-   }
-  }
-
-@media only screen and (max-width:480px) {
-  .our_pricing {
-    background-size: auto;
-  }
-}
-
-@media only screen and (max-width:768px) {
-  .pricingTable .price-value {
-    margin-right: 60px;
-    width: 100%;
-    line-height: 2.5rem;
-
-  }
-}
-
-@media only screen and (max-width: 990px) {
-  .pricingTable {
-    margin-bottom: 30px;
-    margin-left: 15px;
-    width: 100%;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .pricingTable {
-    margin-bottom: 50px;
-  }
 }
