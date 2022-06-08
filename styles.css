@@ -281,18 +281,18 @@ color: #5764ff;}
     top: 250px;
 }
 .pricingTable .price-value{
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 500;
     padding-bottom: 15px;
     border-bottom: 1px dashed #ccc;
 }
 .pricingTable .price-value .amount{
-    line-height: 40px;
+    line-height: 1.5rem;
     display: inline-block;
 }
 .pricingTable .price-value .duration{
     color: #444;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 400;
     display: block;
 }
@@ -304,7 +304,7 @@ color: #5764ff;}
     display: inline-block;
 }
 .pricingTable .pricing-content li{
-    font-size: 17px;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 30px;
     padding: 0 0 0 25px;
@@ -316,7 +316,7 @@ color: #5764ff;}
     content: "\f00c";
     color: #444;
     font-family: "Font Awesome 5 free";
-    font-size: 16px;
+    font-size: 2.5rem;
     font-weight: 900;
     position: absolute;
     top: 1px;
@@ -326,7 +326,7 @@ color: #5764ff;}
 .pricingTable .pricingTable-signup a{
     color: #fff;
     background: linear-gradient(to right,#6491DD,#6469F2);
-    font-size: 18px;
+    font-size: 2.5rempx;
     font-weight: 500;
     line-height: 25px;
     text-transform: uppercase;
