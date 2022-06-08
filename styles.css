@@ -324,8 +324,7 @@ margin: 20px 0;
 }
 
 @media only screen and (max-width:768px) {
-  .pricingTable .price-value .big-heading .dettagli {
-    font-size: 2.5rem;
+  .pricingTable .price-value {
     margin-right: 60px;
     width: 100%;
     line-height: 2.5rem;
@@ -506,5 +505,9 @@ p.section-title-white {
   margin-left: 10%;
   }
   
+  .pricing-content {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  }
 
 }
