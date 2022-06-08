@@ -444,6 +444,10 @@ p.section-title-white {
   .download-button {
     font-size: 4.5rem;
    }
+  
+  .preview-button {
+  font-size: 3.5rem;
+  }
 
   .section-heading {
   line-height: 1em;
