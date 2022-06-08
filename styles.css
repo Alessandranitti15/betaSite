@@ -306,7 +306,7 @@ color: #5764ff;}
 .pricingTable .pricing-content li{
     font-size: 2.5rem;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.7rem;
     padding: 0 0 0 25px;
     margin: 0 0 17px;
     position: relative;
@@ -326,7 +326,7 @@ color: #5764ff;}
 .pricingTable .pricingTable-signup a{
     color: #fff;
     background: linear-gradient(to right,#6491DD,#6469F2);
-    font-size: 2.5rempx;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 25px;
     text-transform: uppercase;
