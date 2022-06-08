@@ -490,34 +490,35 @@ p.section-title-white {
 
   .dettagli {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   }
 
   .corso {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   }
 
   .testimonial-text {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   }
 
   .insegnante {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   }
 
   .section-title-white {
     font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;}
+  font-size: 3rem;}
 
   .foto-online {
   width: 100%;
   margin-bottom: 20%;
   margin-left: 10%;
   }
+  
 
 }
